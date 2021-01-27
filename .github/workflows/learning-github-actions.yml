@@ -15,5 +15,6 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
+      - name: List installations
       - run: pip3 list
       
